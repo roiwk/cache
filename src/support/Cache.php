@@ -11,7 +11,7 @@ use Symfony\Component\Cache\Adapter\PdoAdapter;
 use Symfony\Component\Cache\Psr16Cache;
 use InvalidArgumentException;
 use WeakMap;
-use Webman\Cache\DestructionWatcher;
+use Workerman\Coroutine\Utils\DestructionWatcher;
 
 /**
  * Class Cache
